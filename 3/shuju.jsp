@@ -1,1 +1,1 @@
-{"disList":"https://blalablack.github.io/ajax/3/img/李超_9193.jpg"}
+{"srcc":"https://blalablack.github.io/ajax/3/img/李超_9193.jpg"}

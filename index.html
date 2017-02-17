@@ -9,6 +9,7 @@
   </style>
  </head>
  <body>
+ <div id="content"></div>
   <script>
   $(document).ready(function(){
 	$.ajax({
@@ -16,7 +17,8 @@
 		dataType:'json',
 		cache:false,
 		success:function(data){
-			console.log(data.disList);
+			var div=$("#content");
+			div.attr({"src":data.srcc});
 			}
 	});
 		
