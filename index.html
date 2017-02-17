@@ -17,12 +17,20 @@
 		dataType:'json',
 		cache:false,
 		success:function(data){
+<<<<<<< HEAD
 			console.log(data);
 		},
 		error:function(){
 			alert('获取校区出错！');
 		}
 	})
+=======
+			var div=$("#content");
+			div.append("<img/>");
+			$("img").attr({"src":data.srcc});
+			}
+	});
+>>>>>>> parent of f3ea404... ok
 		
 	})
   </script>

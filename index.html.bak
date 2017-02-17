@@ -16,6 +16,7 @@
 		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
 		cache:false,
+<<<<<<< HEAD
 		success:function(data)
 			
 		},
@@ -23,6 +24,13 @@
 			alert('获取校区出错！');
 		}
 	})
+=======
+		success:function(data){
+			var div=$("#content");
+			div.attr({"src":data.srcc});
+			}
+	});
+>>>>>>> parent of f3ea404... ok
 		
 	})
   </script>
