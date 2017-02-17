@@ -13,7 +13,7 @@
   <script>
   $(document).ready(function(){
 	$.ajax({  
-		url:'3/shuju.jsp',
+		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
 		cache:false,
 		success:function(data){
