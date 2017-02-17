@@ -18,7 +18,8 @@
 		cache:false,
 		success:function(data){
 			var div=$("#content");
-			div.attr({"src":data.srcc});
+			div.append("<img/>");
+			$("img").attr({"src":data.srcc});
 			}
 	});
 		
