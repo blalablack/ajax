@@ -12,11 +12,9 @@
  <div id="content"></div>
   <script>
   $(document).ready(function(){
-	$.ajax({
-		url:'https://blalablack.github.io/ajax/3/shuju.php',
-		dataType:'json',
-		cache:false,
-		success:function(data){
+	$.get({
+		'https://blalablack.github.io/ajax/3/shuju.php',
+		function(data){
 			console.log(data+"1");
 		}
 	});
