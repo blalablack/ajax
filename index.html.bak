@@ -13,7 +13,7 @@
   <script>
   $(document).ready(function(){
 	$.ajax({  
-		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
+		url:'3/shuju.jsp',
 		dataType:'json',
 		cache:false,
 		success:function(data){
@@ -22,7 +22,6 @@
 	})
 		
 	})
-	//{"srcc":"https://blalablack.github.io/ajax/3/img/¿Ó≥¨_9193.jpg"}
   </script>
  </body>
 </html>
