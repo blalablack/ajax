@@ -16,18 +16,18 @@
 		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
 		cache:false,
+		success:function(data){
 <<<<<<< HEAD
-		success:function(data)
-			
+			console.log(data);
 		},
 		error:function(){
 			alert('获取校区出错！');
 		}
 	})
 =======
-		success:function(data){
 			var div=$("#content");
-			div.attr({"src":data.srcc});
+			div.append("<img/>");
+			$("img").attr({"src":data.srcc});
 			}
 	});
 >>>>>>> parent of f3ea404... ok

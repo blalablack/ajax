@@ -11,28 +11,18 @@
  <body>
  <div id="content"></div>
   <script>
-  $(document).ready(function(){
-	$.ajax({                //加载城市列表
-		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
+  
+	$(document).ready(function(){
+	$.ajax({
+		url:''
 		dataType:'json',
 		cache:false,
 		success:function(data){
-<<<<<<< HEAD
-			console.log(data);
-		},
-		error:function(){
-			alert('获取校区出错！');
-		}
-	})
-=======
+			console.log(data.disList);
 			var div=$("#content");
-			div.append("<img/>");
-			$("img").attr({"src":data.srcc});
+			div.attr({"src":data.srcc});
 			}
 	});
->>>>>>> parent of f3ea404... ok
-		
-	})
   </script>
  </body>
 </html>
