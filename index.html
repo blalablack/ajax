@@ -14,15 +14,16 @@
   
 	$(document).ready(function(){
 	$.ajax({
-		url:''
+		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
 		cache:false,
 		success:function(data){
-			console.log(data.disList);
+			console.log(data.srcc);
 			var div=$("#content");
-			div.attr({"src":data.srcc});
+			div.append("<img width='200px' height='300px'src="+data.srcc+">");
 			}
 	});
+	})
   </script>
  </body>
 </html>
