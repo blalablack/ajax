@@ -20,7 +20,7 @@
    <select>
 
  </body>
- <script src="3/myutils.js"></script>
+ <script src="myutils.js"></script>
  <script>
 	var provinceSel=document.getElementById("province");
 	var citySel=document.getElementById("city");
@@ -62,7 +62,7 @@
 			}
 		}
 	
-		xhr.open("post","city.php",true);
+		xhr.open("GET","city.php",true);
 		xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 		xhr.send("province="+provinceValue);
 		xhr.onreadystatechange = function(){
@@ -96,7 +96,7 @@
 				break;
 			}
 		}
-		xhr.open("post","vilige.php",true);
+		xhr.open("GET","vilige.php",true);
 		xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 		xhr.send("city="+cityValue);
 		
