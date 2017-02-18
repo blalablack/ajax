@@ -1,1 +1,13 @@
-{"datas":[{"name":"浮新小区","imgsrc":"https://blalablack.github.io/qingjian/zhirutu/1形象工程/浮新小区.jpg","text":""},{"name":"海泊人家","imgsrc":"https://blalablack.github.io/qingjian/zhirutu/1形象工程/海泊人家24.jpg","text":""}]}
+{"datas":[
+			{
+				"name":"浮新小区",
+				"imgsrc":"https://blalablack.github.io/qingjian/zhirutu/1形象工程/浮新小区.jpg",
+				"text":"&nbsp;&nbsp;&nbsp;&nbsp;浮新小区地理位置优越，交通便利。占地面积215亩，总建筑面积18.6万平方米，可居住户数1600户，人口6000余人，绿地率42％，总投资1.8亿元，现已建成18万平方米，入住1600余户，人口达6000余人。<br>&nbsp;&nbsp;&nbsp;&nbsp;自二OO二年以来，浮新小区随着开发建设规模的逐步扩大，对建设小区内居民的生活环境、休闲场地、文化娱乐、健康文明等相关人民群众的最关心问题，放在了开发建设的首位。除在户型、设施等方面满足居民的同时，环境是满足居民选择、使用、理想居住的先决条件。<br>&nbsp;&nbsp;&nbsp;&nbsp;自绿色社区、安静社区、文明社区等活动开展以来，都得到了市委、市政府的高度重视，得到了市文明办、市环保局、市房管局、市园林局等上级的大力支持，给小区的各项活动建设提供了先进的理念，丰富的知识，实用的技术、科学的服务，加速了创建步伐。"
+			},
+			{
+				"name":"海泊人家",
+				"imgsrc":"https://blalablack.github.io/qingjian/zhirutu/1形象工程/海泊人家24.jpg",
+				"text":""
+			}
+		]
+}
