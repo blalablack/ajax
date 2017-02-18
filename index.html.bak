@@ -18,12 +18,11 @@
 		dataType:'json',
 		cache:false,
 		success:function(data){
-			console.log(data.srcc);
-			var div=$("#content");
-			div.append("<img width='200px' height='300px'src="+data.srcc+">");
+			
 			}
 	});
 	})
+	//todo:换个json
   </script>
  </body>
 </html>
