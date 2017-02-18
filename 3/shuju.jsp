@@ -1,1 +1,8 @@
-{"srcc":"https://blalablack.github.io/ajax/3/img/李超_9193.jpg","name":"gg"}
+{
+	apart1:{
+		"name":"浮新小区",
+		"imgsrc":"",
+		"text":""
+	},
+	
+}
