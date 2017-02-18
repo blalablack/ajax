@@ -11,14 +11,18 @@
  <body>
  <div id="content"></div>
   <script>
-  
+ 
 	$(document).ready(function(){
+		
 	$.ajax({
 		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
-		cache:false,
+		cache:true,
 		success:function(data){
-			console.log(data.apart1);
+			data.map(function(){
+				console.log(this);
+			});
+			console.log(data);
 			
 			}
 	});

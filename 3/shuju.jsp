@@ -1,12 +1,12 @@
 {
-	"apart1":{
+	data:["apart1":{
 				"name":"浮新小区",
-				"text":"safs",
-				"imgsrc":"d"
+				"imgsrc":"d",
+				"text":"safs"
 	},"apart2":{
 				"name":"",
 				"imgsrc":"",
 				"text":""
-	}
+	}]
 
 }
