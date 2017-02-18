@@ -14,16 +14,17 @@
   
 	$(document).ready(function(){
 	$.ajax({
-		url:'https://blalablack.github.io/ajax/3/shuju.jsp?srcc',
+		url:'3/shuju.jsp',
 		dataType:'json',
 		cache:false,
 		success:function(data){
-			console.log(data);
+			console.log(1);
 			
 			}
 	});
 	})
 	//todo:换个json
+	//https://blalablack.github.io/ajax/
   </script>
  </body>
 </html>
