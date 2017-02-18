@@ -1,1 +1,1 @@
-{datas:[{name:"1",imgsrc:"",text:""},{name:"2",imgsrc:"",text:""}]}
+{"datas":[{"name":"1","imgsrc":"","text":""},{"name":"2","imgsrc":"","text":""}]}
