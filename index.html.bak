@@ -18,9 +18,9 @@
 		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
 		dataType:'json',
 		cache:false,
-		success:function(datas){
+		success:function(data){
 			
-			console.log(datas);
+			console.log(data);
 			
 			}
 	});
