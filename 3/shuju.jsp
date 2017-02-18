@@ -1,3 +1,3 @@
 {
-	"disList":
+	"disList":""
 }
