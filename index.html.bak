@@ -14,7 +14,7 @@
   
 	$(document).ready(function(){
 	$.ajax({
-		url:'https://blalablack.github.io/ajax/3/shuju.jsp',
+		url:'https://blalablack.github.io/ajax/3/shuju.jsp?srcc',
 		dataType:'json',
 		cache:false,
 		success:function(data){
