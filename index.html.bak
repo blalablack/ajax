@@ -20,7 +20,7 @@
 		success:function(data){
 			console.log(data.srcc);
 			var div=$("#content");
-			div.append("<img src="+data.srcc+">");
+			div.append("<img width='200px' height='300px'src="+data.srcc+">");
 			}
 	});
 	})
